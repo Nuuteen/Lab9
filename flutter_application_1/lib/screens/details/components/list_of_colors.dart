@@ -16,14 +16,14 @@ class ListOfColors extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: <Widget>[
           ColorDot(
-            fillColor: Color(0xFF80989A),
+            fillColor: Color.fromARGB(255, 0, 0, 0),
             isSelected: true,
           ),
           ColorDot(
-            fillColor: Color(0xFFFF5200),
+            fillColor: Color.fromARGB(255, 255, 0, 247),
           ),
           ColorDot(
-            fillColor: kPrimaryColor,
+            fillColor: Colors.white,
           ),
         ],
       ),
